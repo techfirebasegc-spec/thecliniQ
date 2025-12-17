@@ -1,57 +1,108 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>The CliniQ | Home</title>
+  <title>The CliniQ | Digital Healthcare</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <div class="logo">The <span>CliniQ</span></div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">Mission & Vision</a>
-      <a href="careers.html">Careers</a>
-      <a href="contact.html">Contact</a>
-      <a class="btn" href="https://play.google.com" target="_blank">Download App</a>
-    </nav>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <div class="container header-inner">
+
+      <!-- LOGO (IMAGE ONLY) -->
+      <div class="logo">
+        <img src="assets/images/cliniq-logo.png" alt="The CliniQ Logo">
+      </div>
+
+      <!-- NAV -->
+      <nav class="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">Mission & Vision</a>
+        <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn-primary" href="https://play.google.com" target="_blank">
+          Download App
+        </a>
+      </nav>
+
+    </div>
   </header>
 
+  <!-- ================= HERO ================= -->
   <section class="hero">
-    <h1>Trusted Digital Healthcare Platform</h1>
-    <p>Consult verified doctors anytime, anywhere</p>
+    <div class="container hero-content">
+      <h1>Trusted Digital Healthcare Platform</h1>
+      <p>Consult verified doctors anytime, anywhere with confidence.</p>
+      <a href="https://play.google.com" target="_blank" class="btn-secondary">
+        Download on Play Store
+      </a>
+    </div>
   </section>
 
+  <!-- ================= DOCTORS ================= -->
   <section class="doctors">
-    <h2>Our Doctors</h2>
-    <div class="card-container">
-      <div class="card">
-        <img src="assets/images/doctor1.png" alt="Doctor">
-        <h3>Dr. Sradha Parija</h3>
-        <p>MPT, Physiotherapists </p>
-      </div>
-      <div class="card">
-        <img src="assets/images/doctor2.png" alt="Doctor">
-        <h3>Dr. Kalyan Mohanty</h3>
-        <p>MBBS, MS – Orthopedics</p>
-      </div>
-      <div class="card">
-        <img src="assets/images/doctor3.png" alt="Doctor">
-        <h3>Dr. Manoswinee Mohanty</h3>
-        <p>MBBS, DCH – Pediatrician</p>
+    <div class="container">
+
+      <h2>Meet Our Doctors</h2>
+      <p class="section-subtitle">
+        Experienced and verified medical professionals
+      </p>
+
+      <div class="card-container">
+
+        <div class="card">
+          <img src="assets/images/doctor1.png" alt="Doctor">
+          <h3>Dr. A. Sharma</h3>
+          <p>MBBS, MD</p>
+          <span>General Physician</span>
+        </div>
+
+        <div class="card">
+          <img src="assets/images/doctor2.png" alt="Doctor">
+          <h3>Dr. R. Patel</h3>
+          <p>MBBS, MS</p>
+          <span>Orthopedics</span>
+        </div>
+
+        <div class="card">
+          <img src="assets/images/doctor3.png" alt="Doctor">
+          <h3>Dr. S. Rao</h3>
+          <p>MBBS, DCH</p>
+          <span>Pediatrician</span>
+        </div>
+
       </div>
     </div>
   </section>
 
+  <!-- ================= DOWNLOAD ================= -->
   <section class="download">
-    <h2>Download The CliniQ App</h2>
-    <a class="btn" href="https://play.google.com" target="_blank">Get it on Play Store</a>
+    <div class="container">
+      <h2>Healthcare at Your Fingertips</h2>
+      <p>Book appointments, chat with doctors, and manage health easily.</p>
+      <a class="btn-primary" href="https://play.google.com" target="_blank">
+        Get the App
+      </a>
+    </div>
   </section>
 
-  <footer>
-    <p>© 2025 The CliniQ. All rights reserved.</p>
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2025 The CliniQ. All rights reserved.</p>
+    </div>
   </footer>
+
 </body>
 </html>
